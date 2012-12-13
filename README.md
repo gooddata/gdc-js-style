@@ -358,7 +358,7 @@
     var superPower = new SuperPower();
     ```
 
-  - You can you one `var` declaration for multiple variables, but if the right hand side of the assignment is the result of a function call, prefer to use multiple `var` declarations. When using developers tools this eases stepping into the function for debugging.
+  - You can use one `var` declaration for multiple variables, but if the right hand side of the assignment is the result of a function call, prefer to use multiple `var` declarations. When using developers tools this eases stepping into the function for debugging.
 
     ```javascript
     // bad
