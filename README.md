@@ -12,7 +12,6 @@
   1. [Functions](#functions)
   1. [Properties](#properties)
   1. [Variables](#variables)
-  1. [Hoisting](#hoisting)
   1. [Conditional Expressions & Equality](#conditionals)
   1. [Blocks](#blocks)
   1. [Comments](#comments)
@@ -23,9 +22,8 @@
   1. [Naming Conventions](#naming-conventions)
   1. [Accessors](#accessors)
   1. [Constructors](#constructors)
-  1. [Modules](#modules)
   1. [jQuery](#jquery)
-  1. [ES5 Compatability](#es5)
+  1. [ES5 Compatibility](#es5)
   1. [Testing](#testing)
   1. [Performance](#performance)
   1. [Resources](#resources)
@@ -1013,36 +1011,6 @@
     Jedi.prototype.toString = function toString() {
         return 'Jedi - ' + this.getName();
     };
-    ```
-
-    **[[⬆]](#TOC)**
-
-
-## <a name='modules'>Modules</a>
-
-  - The module should start with a `!`. This ensures that if a malformed module forgets to include a final semicolon there aren't errors in production when the scripts get concatenated.
-  - The file should be named with camelCase, live in a folder with the same name, and match the name of the single export.
-  - Add a method called noConflict() that sets the exported module to the previous version.
-  - Always declare `'use strict';` at the top of the module.
-
-    ```javascript
-    // fancyInput/fancyInput.js
-
-    !function(global) {
-        'use strict';
-
-        var previousFancyInput = global.FancyInput;
-
-        function FancyInput(options) {
-            options || (options = {});
-        }
-
-        FancyInput.noConflict = function noConflict() {
-            global.FancyInput = previousFancyInput;
-        };
-
-        global.FancyInput = FancyInput;
-    }(this);
     ```
 
     **[[⬆]](#TOC)**
