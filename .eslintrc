@@ -1,0 +1,66 @@
+{
+    "parser": "babel-eslint",
+
+    "plugins": ["react", "mocha"],
+
+    "extends": "airbnb",
+
+    "env": {
+        // I write for browser
+        "browser": true,
+
+        // in CommonJS
+        "node": true,
+
+        // with mocha
+        "mocha": true
+    },
+
+    "rules": {
+        "indent": [2, 4, { "SwitchCase": 1 }],
+        "react/jsx-indent": [2, 4],
+        "react/jsx-indent-props": [2, 4],
+        "space-before-function-paren": [2, "never"],
+
+        "comma-dangle": [2, "never"],
+
+        "global-require": [0],
+
+        "arrow-body-style": [0],
+
+        "import/no-extraneous-dependencies": [0],
+        "import/no-named-as-default": [0],
+        "import/prefer-default-export": [0],
+
+        "react/prefer-stateless-function": [0],
+
+        "mocha/no-exclusive-tests": 2,
+        "mocha/no-skipped-tests": 2,
+        "mocha/no-pending-tests": 2,
+        "mocha/handle-done-callback": 2,
+        "mocha/no-global-tests": 2,
+        "mocha/no-sibling-hooks": 2,
+        "mocha/no-hooks-for-single-case": 2,
+        "mocha/no-top-level-hooks": 2,
+        "mocha/no-identical-title": 2
+    },
+
+    "globals": {
+        "DEBUG": false,
+        "TESTING": false,
+        "PRODUCTION": false,
+
+        "define": false,
+        "require": false,
+
+        "describe": false,
+        "context": false,
+        "before": false,
+        "beforeEach": false,
+        "after": false,
+        "afterEach": false,
+        "it": false,
+        "expect": false,
+        "sinon": false
+    }
+}
