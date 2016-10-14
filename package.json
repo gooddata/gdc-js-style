@@ -17,7 +17,7 @@
     "node": ">= 4"
   },
   "dependencies": {
-    "eslint": "3.5.0",
+    "eslint": "3.7.1",
     "eslint-config-airbnb": "11.1.0",
     "eslint-plugin-import": "1.15.0",
     "eslint-plugin-jsx-a11y": "2.2.1",
