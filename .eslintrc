@@ -22,6 +22,14 @@
         "react/jsx-indent-props": [2, 4],
         "space-before-function-paren": [2, "never"],
 
+        // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/style.js#L126-L134
+        "max-len": ["error", 120, 4, {
+            ignoreUrls: true,
+            ignoreComments: false,
+            ignoreStrings: true,
+            ignoreTemplateLiterals: true
+        }],
+
         "comma-dangle": [2, "never"],
 
         "global-require": [0],
