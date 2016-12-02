@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gooddata",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "GoodData JavaScript Style Guide",
   "main": ".eslintrc",
   "repository": {
