@@ -1,10 +1,13 @@
 # GoodData JavaScript Style Guide
 
-Install
+## Install
+`yarn add --dev eslint-config-gooddata`
 
-`yarn install --save-dev gooddata/gdc-js-style`
+## Info
+This package includes eslint, customized airbnb rules for JS & React, babel-eslint and some eslint plugins.
 
-.eslintrc
+## Usage
+Edit your `.eslintrc`
 ```
 {
   "extends": ["gooddata"]
