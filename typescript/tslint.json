@@ -9,6 +9,8 @@
     "variable-name": [true, "ban-keywords"],
     "object-shorthand-properties-first": [false],
     "import-name": [false],
-    "function-name": [false]
+    "function-name": [false],
+    "no-debugger": true,
+    "no-console": true
   }
 }
