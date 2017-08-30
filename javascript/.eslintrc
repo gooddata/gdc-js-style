@@ -70,5 +70,6 @@
         "it": false,
         "expect": false,
         "sinon": false
+        "jest": false
     }
 }
