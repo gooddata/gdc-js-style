@@ -69,7 +69,7 @@
         "afterEach": false,
         "it": false,
         "expect": false,
-        "sinon": false
+        "sinon": false,
         "jest": false
     }
 }
