@@ -2,7 +2,7 @@
   "name": "tslint-config-gooddata",
   "version": "0.0.2",
   "description": "GoodData TypeScript Style Guide",
-  "main": "tslint.json",
+  "main": "tslint.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gooddata/gdc-js-style.git"
@@ -14,12 +14,11 @@
   },
   "homepage": "https://github.com/gooddata/gdc-js-style",
   "dependencies": {
-    "tslint-config-airbnb": "5.1.2"
-  },
-  "peerDependencies": {
-    "tslint": "^5.4.3"
+    "tslint": "5.7.0",
+    "tslint-eslint-rules": "4.1.1",
+    "tslint-react": "3.2.0"
   },
   "devDependencies": {
-    "typescript": "^2.3.4"
+    "typescript": "2.5.2"
   }
 }

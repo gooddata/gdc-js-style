@@ -1,18 +1,14 @@
-# GoodData Typescript Style Guide
+# GoodData TypeScript Style Guide
+
+TypeScript coding style guide similar to [GoodData JavaScript Style Guide](https://github.com/gooddata/gdc-js-style/tree/master/javascript)
 
 ## Install
-`yarn add --dev tslint tslint-config-gooddata`
-
-## Info
-Typescript coding style guide similar to GoodData JS version.
-
-Based on https://github.com/progre/tslint-config-airbnb
-
+`yarn add --dev tslint-config-gooddata`
 
 ## Usage
-Edit your `tslint.config`
+Edit your `tslint.json`
 ```
 {
-  "extends": "tslint-config-airbnb"
+  "extends": "tslint-config-gooddata"
 }
 ```
