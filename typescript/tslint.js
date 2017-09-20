@@ -10,6 +10,7 @@ module.exports = {
         "jsx-no-multiline-js": false, // https://github.com/palantir/tslint-react#rules
         "max-classes-per-file": [false], // https://palantir.github.io/tslint/rules/max-classes-per-file/
         "no-use-before-declare": true, // https://palantir.github.io/tslint/rules/no-use-before-declare/
+        "no-submodule-imports": [true, "lodash"], // https://palantir.github.io/tslint/rules/no-submodule-imports/
         "no-shadowed-variable": false, // https://palantir.github.io/tslint/rules/no-shadowed-variable/
         "object-literal-sort-keys": false, // https://palantir.github.io/tslint/rules/object-literal-sort-keys/
         "ordered-imports": false, // https://palantir.github.io/tslint/rules/ordered-imports/
