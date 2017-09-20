@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-gooddata",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "GoodData TypeScript Style Guide",
   "main": "tslint.js",
   "repository": {
