@@ -1,7 +1,7 @@
 {
     "parser": "babel-eslint",
 
-    "plugins": ["react", "mocha"],
+    "plugins": ["react", "jest"],
 
     "extends": "airbnb",
 
@@ -12,8 +12,8 @@
         // in CommonJS
         "node": true,
 
-        // with mocha
-        "mocha": true
+        // jest
+        "jest/globals": true
     },
 
     "rules": {
@@ -24,10 +24,10 @@
 
         // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/style.js#L126-L134
         "max-len": ["error", 120, 4, {
-            ignoreUrls: true,
-            ignoreComments: false,
-            ignoreStrings: true,
-            ignoreTemplateLiterals: true
+            "ignoreUrls": true,
+            "ignoreComments": false,
+            "ignoreStrings": true,
+            "ignoreTemplateLiterals": true
         }],
 
         "comma-dangle": [2, "never"],
@@ -42,15 +42,10 @@
 
         "react/prefer-stateless-function": [0],
 
-        "mocha/no-exclusive-tests": 2,
-        "mocha/no-skipped-tests": 2,
-        "mocha/no-pending-tests": 2,
-        "mocha/handle-done-callback": 2,
-        "mocha/no-global-tests": 2,
-        "mocha/no-sibling-hooks": 2,
-        "mocha/no-hooks-for-single-case": 2,
-        "mocha/no-top-level-hooks": 2,
-        "mocha/no-identical-title": 2
+        "jest/no-disabled-tests": 2,
+        "jest/no-focused-tests": 2,
+        "jest/no-identical-title": 2,
+        "jest/valid-expect": 2
     },
 
     "globals": {
