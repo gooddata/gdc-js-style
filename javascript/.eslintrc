@@ -20,7 +20,6 @@
         "indent": [2, 4, { "SwitchCase": 1 }],
         "react/jsx-indent": [2, 4],
         "react/jsx-indent-props": [2, 4],
-        "space-before-function-paren": [2, "never"],
 
         // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/style.js#L126-L134
         "max-len": ["error", 120, 4, {
@@ -45,7 +44,10 @@
         "jest/no-disabled-tests": 2,
         "jest/no-focused-tests": 2,
         "jest/no-identical-title": 2,
-        "jest/valid-expect": 2
+        "jest/valid-expect": 2,
+
+        "jsx-a11y/href-no-hash": 0, // https://github.com/airbnb/javascript/issues/1474 , remove later
+        "jsx-a11y/anchor-is-valid": ["error", { "components": ["a"] }] // replaces jsx-a11y/href-no-hash
     },
 
     "globals": {
