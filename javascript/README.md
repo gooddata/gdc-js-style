@@ -13,3 +13,6 @@ Edit your `.eslintrc`
   "extends": ["gooddata"]
 }
 ```
+
+## Useful information for developing custom rules
+  - http://astexplorer.net/
