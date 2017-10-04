@@ -10,7 +10,8 @@ const errors = [{
 
 ruleTester.run('no-lodash-bindall', rule, {
     valid: [
-        'this.myFunction.bind(this);'
+        'this.myFunction.bind(this);',
+        '1;' // check for valid expression without callee
     ],
 
     invalid: [

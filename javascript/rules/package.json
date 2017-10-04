@@ -1,8 +1,8 @@
 {
-  "name": "eslint-config-gooddata",
-  "version": "0.0.15",
-  "description": "GoodData JavaScript Style Guide",
-  "main": ".eslintrc",
+  "name": "eslint-plugin-gooddata",
+  "version": "0.0.1",
+  "description": "GoodData ESlint rules",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gooddata/gdc-js-style.git"
@@ -19,20 +19,16 @@
   "scripts": {
     "test": "jest"
   },
-  "dependencies": {
-    "babel-eslint": "7.2.2",
-    "eslint": "4.6.0",
-    "eslint-config-airbnb": "15.1.0",
-    "eslint-config-airbnb-base": "12.0.0",
-    "eslint-plugin-import": "2.7.0",
-    "eslint-plugin-jest": "21.0.0",
-    "eslint-plugin-jsx-a11y": "6.0.2",
-    "eslint-plugin-react": "7.3.0"
+  "peerDependencies": {
+    "babel-eslint": "^7.2.2",
+    "eslint": "^4.6.0"
   },
   "devDependencies": {
     "babel-core": "6.26.0",
+    "babel-eslint": "7.2.2",
     "babel-jest": "21.2.0",
     "babel-preset-env": "1.6.0",
+    "eslint": "4.6.0",
     "jest": "21.2.1"
   },
   "jest": {
