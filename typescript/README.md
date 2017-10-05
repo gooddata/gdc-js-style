@@ -7,7 +7,7 @@ TypeScript coding style guide similar to [GoodData JavaScript Style Guide](https
 
 ## Usage
 Edit your `tslint.json`
-```
+```json
 {
   "extends": "tslint-config-gooddata"
 }
