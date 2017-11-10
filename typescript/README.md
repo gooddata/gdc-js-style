@@ -12,3 +12,12 @@ Edit your `tslint.json`
   "extends": "tslint-config-gooddata"
 }
 ```
+
+## Release
+```bash
+git checkout master && git pull upstream master
+npm version [major|minor|patch]
+git commit -am "TS - Release v[your_version]"
+npm publish
+git push upstream master
+```
