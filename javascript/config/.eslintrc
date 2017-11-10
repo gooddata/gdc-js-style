@@ -1,7 +1,7 @@
 {
     "parser": "babel-eslint",
 
-    "plugins": ["react", "jest"],
+    "plugins": ["react", "jest", "gooddata"],
 
     "extends": "airbnb",
 
@@ -17,6 +17,10 @@
     },
 
     "rules": {
+        "gooddata/no-lodash-bindall": 2,
+        "gooddata/no-react-addons-test-utils": 2,
+        "gooddata/no-object-assign": 2,
+
         "indent": [2, 4, { "SwitchCase": 1 }],
         "react/jsx-indent": [2, 4],
         "react/jsx-indent-props": [2, 4],
