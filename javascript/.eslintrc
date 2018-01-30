@@ -56,17 +56,6 @@
         "PRODUCTION": false,
 
         "define": false,
-        "require": false,
-
-        "describe": false,
-        "context": false,
-        "before": false,
-        "beforeEach": false,
-        "after": false,
-        "afterEach": false,
-        "it": false,
-        "expect": false,
-        "sinon": false,
-        "jest": false
+        "require": false
     }
 }
