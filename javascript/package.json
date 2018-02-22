@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/gooddata/gdc-js-style",
   "engines": {
-    "node": ">= 4"
+    "node": ">= 8.9.4"
   },
   "scripts": {
     "test": "eslint --ext .js ./test.js"
