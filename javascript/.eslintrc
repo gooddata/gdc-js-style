@@ -46,8 +46,12 @@
         "jest/no-identical-title": 2,
         "jest/valid-expect": 2,
 
-        "jsx-a11y/href-no-hash": 0, // https://github.com/airbnb/javascript/issues/1474 , remove later
-        "jsx-a11y/anchor-is-valid": ["error", { "components": ["a"] }] // replaces jsx-a11y/href-no-hash
+        "function-paren-newline": 0,
+        "object-curly-newline": 0,
+
+        "jsx-a11y/click-events-have-key-events": 0,
+        "jsx-a11y/mouse-events-have-key-events": 0,
+        "jsx-a11y/no-static-element-interactions": 0
     },
 
     "globals": {
