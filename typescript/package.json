@@ -1,24 +1,24 @@
 {
   "name": "tslint-config-gooddata",
   "version": "0.0.7",
-  "description": "GoodData TypeScript Style Guide",
+  "description": "GoodData TSLint rules configuration",
   "main": "tslint.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gooddata/gdc-js-style.git"
   },
   "author": "ui@gooddata.com",
-  "license": "SEE LICENSE IN LICENSE.txt",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/gooddata/gdc-js-style/issues"
   },
   "homepage": "https://github.com/gooddata/gdc-js-style",
   "dependencies": {
     "tslint": "5.8.0",
-    "tslint-eslint-rules": "4.1.1",
-    "tslint-react": "3.2.0"
+    "tslint-eslint-rules": "5.1.0",
+    "tslint-react": "3.5.1"
   },
   "devDependencies": {
-    "typescript": "2.5.2"
+    "typescript": "2.7.2"
   }
 }

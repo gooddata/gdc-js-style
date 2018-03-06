@@ -21,6 +21,7 @@ module.exports = {
         "no-shadowed-variable": false, // https://palantir.github.io/tslint/rules/no-shadowed-variable/
         "no-this-assignment": false, // https://palantir.github.io/tslint/rules/no-this-assignment/
         "no-use-before-declare": true, // https://palantir.github.io/tslint/rules/no-use-before-declare/
+        "object-curly-spacing": [true, "always"], // https://github.com/buzinas/tslint-eslint-rules/blob/master/src/docs/rules/objectCurlySpacingRule.md
         "object-literal-sort-keys": false, // https://palantir.github.io/tslint/rules/object-literal-sort-keys/
         "ordered-imports": false, // https://palantir.github.io/tslint/rules/ordered-imports/
         "quotemark": [true, "single", "avoid-template", "jsx-double"], // https://palantir.github.io/tslint/rules/quotemark/
