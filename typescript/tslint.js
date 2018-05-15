@@ -17,6 +17,7 @@ module.exports = {
         "jsx-no-multiline-js": false, // https://github.com/palantir/tslint-react#rules
         "max-classes-per-file": [false], // https://palantir.github.io/tslint/rules/max-classes-per-file/
         "no-implicit-dependencies": [true, "dev"], // https://palantir.github.io/tslint/rules/no-implicit-dependencies/
+        "no-parameter-reassignment": true, // https://palantir.github.io/tslint/rules/no-parameter-reassignment/
         "no-submodule-imports": false, // https://palantir.github.io/tslint/rules/no-submodule-imports/
         "no-shadowed-variable": false, // https://palantir.github.io/tslint/rules/no-shadowed-variable/
         "no-this-assignment": false, // https://palantir.github.io/tslint/rules/no-this-assignment/
