@@ -1,4 +1,4 @@
-{
+module.exports = {
     "parser": "babel-eslint",
 
     "plugins": ["react", "jest"],
@@ -62,4 +62,4 @@
         "define": false,
         "require": false
     }
-}
+};
