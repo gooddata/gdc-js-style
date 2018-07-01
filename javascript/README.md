@@ -1,7 +1,7 @@
 # GoodData JavaScript Style Guide
 
 ## Install
-`yarn add --dev eslint-config-gooddata`
+`yarn add --dev @gooddata/eslint-config`
 
 ## Info
 This package includes eslint, customized airbnb rules for JS & React, babel-eslint and some eslint plugins.
@@ -10,7 +10,7 @@ This package includes eslint, customized airbnb rules for JS & React, babel-esli
 Edit your `.eslintrc`
 ```json
 {
-  "extends": ["gooddata"]
+  "extends": ["@gooddata"]
 }
 ```
 
