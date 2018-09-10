@@ -14,6 +14,7 @@ module.exports = {
             ["String", "Avoid using the `String` type. Did you mean `string`?"],
             ["Symbol", "Avoid using the `Symbol` type. Did you mean `symbol`?"]
         ], // https://palantir.github.io/tslint/rules/ban-types/
+        "file-header": [true, "^ \\(C\\) \\d{4}(-\\d{4})? GoodData Corporation$"], // https://palantir.github.io/tslint/rules/file-header/
         "jsx-no-multiline-js": false, // https://github.com/palantir/tslint-react#rules
         "max-classes-per-file": [false], // https://palantir.github.io/tslint/rules/max-classes-per-file/
         "no-implicit-dependencies": [true, "dev"], // https://palantir.github.io/tslint/rules/no-implicit-dependencies/
