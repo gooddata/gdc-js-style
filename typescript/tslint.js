@@ -27,6 +27,7 @@ module.exports = {
         "ordered-imports": false, // https://palantir.github.io/tslint/rules/ordered-imports/
         "quotemark": [true, "single", "avoid-template", "jsx-double"], // https://palantir.github.io/tslint/rules/quotemark/
         "ter-arrow-parens": [true, "as-needed", { "requireForBlockBody": true }], // https://github.com/buzinas/tslint-eslint-rules/blob/master/src/docs/rules/terArrowParensRule.md
-        "trailing-comma": [true, { "multiline": "never", "singleline": "never" }] // https://palantir.github.io/tslint/rules/trailing-comma/
+        "trailing-comma": [true, { "multiline": "never", "singleline": "never" }], // https://palantir.github.io/tslint/rules/trailing-comma/
+        "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case", "allow-leading-underscore"] // https://palantir.github.io/tslint/rules/variable-name/
     }
 };
