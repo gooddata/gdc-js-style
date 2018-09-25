@@ -1,7 +1,7 @@
 {
     "parser": "babel-eslint",
 
-    "plugins": ["react", "jest"],
+    "plugins": ["react", "jest", "header"],
 
     "extends": "airbnb",
 
@@ -51,7 +51,9 @@
 
         "jsx-a11y/click-events-have-key-events": 0,
         "jsx-a11y/mouse-events-have-key-events": 0,
-        "jsx-a11y/no-static-element-interactions": 0
+        "jsx-a11y/no-static-element-interactions": 0,
+
+        "header/header": [2, "line", {"pattern": "^ \\(C\\) \\d{4}(-\\d{4})? GoodData Corporation$"}]
     },
 
     "globals": {
