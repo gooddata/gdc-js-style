@@ -2,7 +2,8 @@ module.exports = {
     "extends": [
         "tslint:latest",
         "tslint-eslint-rules",
-        "tslint-react"
+        "tslint-react",
+        "tslint-plugin-prettier"
     ],
     "rules": {
         "arrow-parens": false, // https://palantir.github.io/tslint/rules/arrow-parens/ disable here and set correctly via "ter-arrow-parens" rule below
@@ -29,6 +30,7 @@ module.exports = {
         "quotemark": [true, "single", "avoid-template", "jsx-double"], // https://palantir.github.io/tslint/rules/quotemark/
         "ter-arrow-parens": [true, "as-needed", { "requireForBlockBody": true }], // https://github.com/buzinas/tslint-eslint-rules/blob/master/src/docs/rules/terArrowParensRule.md
         "trailing-comma": [true, { "multiline": "never", "singleline": "never" }], // https://palantir.github.io/tslint/rules/trailing-comma/
-        "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case", "allow-leading-underscore"] // https://palantir.github.io/tslint/rules/variable-name/
+        "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case", "allow-leading-underscore"], // https://palantir.github.io/tslint/rules/variable-name/
+        "prettier": true // https://github.com/prettier/tslint-plugin-prettier
     }
 };
