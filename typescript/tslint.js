@@ -6,14 +6,6 @@ module.exports = {
     ],
     "rules": {
         "arrow-parens": false, // https://palantir.github.io/tslint/rules/arrow-parens/ disable here and set correctly via "ter-arrow-parens" rule below
-        "ban-types": [
-            true,
-            ["Object", "Avoid using the `Object` type. Did you mean `object`?"],
-            ["Boolean", "Avoid using the `Boolean` type. Did you mean `boolean`?"],
-            ["Number", "Avoid using the `Number` type. Did you mean `number`?"],
-            ["String", "Avoid using the `String` type. Did you mean `string`?"],
-            ["Symbol", "Avoid using the `Symbol` type. Did you mean `symbol`?"]
-        ], // https://palantir.github.io/tslint/rules/ban-types/
         "file-header": [true, "^ \\(C\\) \\d{4}(-\\d{4})? GoodData Corporation$"], // https://palantir.github.io/tslint/rules/file-header/
         "jsx-no-multiline-js": false, // https://github.com/palantir/tslint-react#rules
         "max-classes-per-file": [false], // https://palantir.github.io/tslint/rules/max-classes-per-file/
@@ -22,7 +14,6 @@ module.exports = {
         "no-submodule-imports": false, // https://palantir.github.io/tslint/rules/no-submodule-imports/
         "no-shadowed-variable": false, // https://palantir.github.io/tslint/rules/no-shadowed-variable/
         "no-this-assignment": false, // https://palantir.github.io/tslint/rules/no-this-assignment/
-        "no-use-before-declare": true, // https://palantir.github.io/tslint/rules/no-use-before-declare/
         "object-curly-spacing": [true, "always"], // https://github.com/buzinas/tslint-eslint-rules/blob/master/src/docs/rules/objectCurlySpacingRule.md
         "object-literal-sort-keys": false, // https://palantir.github.io/tslint/rules/object-literal-sort-keys/
         "ordered-imports": false, // https://palantir.github.io/tslint/rules/ordered-imports/
