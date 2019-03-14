@@ -1,6 +1,6 @@
 {
   "name": "@gooddata/tslint-config",
-  "version": "0.0.14",
+  "version": "0.0.16",
   "description": "GoodData TSLint rules configuration",
   "main": "tslint.js",
   "repository": {
