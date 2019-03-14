@@ -1,8 +1,9 @@
 module.exports = {
+    "rulesDirectory": ["./", "../../tslint-microsoft-contrib"],
     "extends": [
         "tslint:latest",
         "tslint-eslint-rules",
-        "tslint-react"
+        "tslint-react",
     ],
     "rules": {
         "arrow-parens": false, // https://palantir.github.io/tslint/rules/arrow-parens/ disable here and set correctly via "ter-arrow-parens" rule below
@@ -29,6 +30,21 @@ module.exports = {
         "quotemark": [true, "single", "avoid-template", "jsx-double"], // https://palantir.github.io/tslint/rules/quotemark/
         "ter-arrow-parens": [true, "as-needed", { "requireForBlockBody": true }], // https://github.com/buzinas/tslint-eslint-rules/blob/master/src/docs/rules/terArrowParensRule.md
         "trailing-comma": [true, { "multiline": "never", "singleline": "never" }], // https://palantir.github.io/tslint/rules/trailing-comma/
-        "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case", "allow-leading-underscore"] // https://palantir.github.io/tslint/rules/variable-name/
+        "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case", "allow-leading-underscore"], // https://palantir.github.io/tslint/rules/variable-name/        
+        "no-banned-terms": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
+        "no-delete-expression": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
+        "no-document-domain": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
+        "no-disable-auto-sanitization": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
+        "no-duplicate-parameter-names": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
+        "no-exec-script": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle        
+        "no-octal-literal": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle        
+        "no-string-based-set-immediate": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
+        "no-string-based-set-interval": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
+        "no-string-based-set-timeout": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
+        "no-eval": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
+        "no-document-write": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
+        "no-http-string": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
+        "no-inner-html": true, // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
+        "react-no-dangerous-html": true // https://github.com/Microsoft/tslint-microsoft-contrib/wiki/TSLint-and-the-Microsoft-Security-Development-Lifecycle
     }
 };
