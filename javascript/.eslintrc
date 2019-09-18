@@ -1,7 +1,7 @@
 {
     "parser": "babel-eslint",
 
-    "plugins": ["react", "jest", "header", "no-only-tests"],
+    "plugins": ["react", "jest", "babel", "header", "no-only-tests"],
 
     "extends": "airbnb",
 
@@ -55,7 +55,13 @@
 
         "header/header": [2, "line", {"pattern": "^ \\(C\\) \\d{4}(-\\d{4})? GoodData Corporation$"}],
 
-        "no-only-tests/no-only-tests": "error"
+        "no-only-tests/no-only-tests": "error",
+
+        "no-unused-expressions": 0,
+        "babel/no-unused-expressions": 2,
+
+        "camelcase": 0,
+        "babel/camelcase": 2
     },
 
     "globals": {
