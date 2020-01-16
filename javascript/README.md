@@ -1,24 +1,39 @@
 # GoodData JavaScript Style Guide
 
+This package is build based on https://eslint.org/docs/developer-guide/shareable-configs. Provides common linting rules for gooddata TS/JS projects.
+
+Linter is using typescript-eslint parser to check typescript and javascript sources
+
+More details: https://typescript-eslint.io, [typescript-eslint Roadmap](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/ROADMAP.md)
+
 ## Install
-`yarn add --dev @gooddata/eslint-config`
+```
+yarn add @gooddata/eslint-config --dev
+```
 
-## Info
-This package includes eslint, customized airbnb rules for JS & React, babel-eslint and some eslint plugins.
+Add required eslint, parser & plugins
 
+```
+yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-header eslint-plugin-import eslint-plugin-jest --dev
+```
+                               
 ## Usage
-Edit your `.eslintrc`
-```json
-{
-  "extends": ["@gooddata"]
-}
+
+Add or edit in project `.eslintrc.js` file.
+
+```javascript
+module.exports = {
+    root: true,
+    extends: ["@gooddata"],
+    rules: {
+        // Custom rules
+    }
+};
 ```
 
 ## Release
-```bash
-git checkout master && git pull upstream master
-npm version [major|minor|patch]
-git commit -am "JS - Release v[your_version]"
-npm publish
-git push upstream master
-```
+
+Package publishing is done via Jenkins Job:
+
+https://checklist.intgdc.com/job/client-libs/job/gdc-js-style-javascript-release/
+
