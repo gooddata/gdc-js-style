@@ -14,10 +14,7 @@ Edit your `tslint.json`
 ```
 
 ## Release
-```bash
-git checkout master && git pull upstream master
-npm version [major|minor|patch]
-git commit -am "TS - Release v[your_version]"
-npm publish
-git push upstream master
-```
+
+Package publishing is done via Jenkins Job:
+
+https://checklist.intgdc.com/job/client-libs/job/gdc-js-style-typescript-release/
