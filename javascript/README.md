@@ -29,6 +29,15 @@ module.exports = {
         // Custom rules
     }
 };
+```  
+
+## Development
+
+Install [Node.js](http://nodejs.org) (node 12.16.1, npm v6.13.4) and [Yarn](https://classic.yarnpkg.com) 1.22.4.
+
+Install dependencies:
+```
+yarn install --frozen-lockfile
 ```
 
 ## Release
