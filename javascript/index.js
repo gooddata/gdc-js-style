@@ -1,7 +1,7 @@
 // (C) 2020 GoodData Corporation
 module.exports = {
     parser: "@typescript-eslint/parser",
-    plugins: ["jest", "header", "import"],
+    plugins: ["jest", "header", "import", "no-only-tests"],
     extends: [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
@@ -31,6 +31,7 @@ module.exports = {
         "jest/no-focused-tests": 2,
         "jest/no-identical-title": 2,
         "jest/valid-expect": 2,
+        "no-only-tests/no-only-tests": ["error", { "block": ["fixture"], "focus": ["only"] }],
 
         // Security
         "no-caller": 2,
