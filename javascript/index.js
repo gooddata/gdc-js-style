@@ -19,7 +19,17 @@ module.exports = {
         "@typescript-eslint/explicit-function-return-type": 0,
         "@typescript-eslint/no-use-before-define": 0,
         "@typescript-eslint/no-empty-function": 0,
-        "@typescript-eslint/interface-name-prefix": [2, { prefixWithI: "always" }],
+        "@typescript-eslint/naming-convention": [
+            "error",
+            {
+                selector: "interface",
+                format: ["PascalCase"],
+                custom: {
+                    regex: "^I[A-Z]",
+                    match: true,
+                },
+            },
+        ],
         "@typescript-eslint/no-unused-vars": [2, { varsIgnorePattern: "^_.*$", argsIgnorePattern: "^_.*$" }],
         "@typescript-eslint/no-explicit-any": 2,
         "import/no-extraneous-dependencies": [2, { devDependencies: true }],
