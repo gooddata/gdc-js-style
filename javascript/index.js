@@ -15,7 +15,10 @@ module.exports = {
     },
     rules: {
         // GoodData
-        "header/header": [2, "line", { pattern: "^ \\(C\\) \\d{4}(-\\d{4})? GoodData Corporation$" }],
+        "header/header": [2, "line", {
+            pattern: "^ \\(C\\) \\d{4}(-\\d{4})? GoodData Corporation$",
+            template: " (C) 2022 GoodData Corporation"
+        }],
         "@typescript-eslint/explicit-function-return-type": 0,
         "@typescript-eslint/no-use-before-define": 0,
         "@typescript-eslint/no-empty-function": 0,
@@ -35,7 +38,7 @@ module.exports = {
         "import/no-extraneous-dependencies": [2, { devDependencies: true }],
         "import/order": 2,
         "no-console": 2,
-        
+
         // Test
         "jest/no-disabled-tests": 2,
         "jest/no-focused-tests": 2,
