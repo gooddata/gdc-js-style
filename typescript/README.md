@@ -3,21 +3,25 @@
 TypeScript coding style guide similar to [GoodData JavaScript Style Guide](https://github.com/gooddata/gdc-js-style/tree/master/javascript)
 
 ## Install
+
 `yarn add --dev @gooddata/tslint-config`
 
 ## Usage
+
 Edit your `tslint.json`
+
 ```json
 {
-  "extends": "@gooddata/tslint-config"
+    "extends": "@gooddata/tslint-config"
 }
 ```
- 
+
 ## Development
 
-Install [Node.js](http://nodejs.org) (node 12.16.1, npm v6.13.4) and [Yarn](https://classic.yarnpkg.com) 1.22.4.
+Install [Node.js](http://nodejs.org) and [Yarn](https://classic.yarnpkg.com) (for versions, see [config](docker/.config)).
 
 Install dependencies:
+
 ```
 yarn install --frozen-lockfile
 ```
