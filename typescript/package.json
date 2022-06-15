@@ -8,7 +8,7 @@
     "url": "git+https://github.com/gooddata/gdc-js-style.git"
   },
   "author": "ui@gooddata.com",
-  "license": "UNLICENSED",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/gooddata/gdc-js-style/issues"
   },
