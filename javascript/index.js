@@ -37,7 +37,7 @@ module.exports = {
         "@typescript-eslint/no-explicit-any": 2,
         "import/no-extraneous-dependencies": [2, { devDependencies: true }],
         "import/order": 2,
-        "no-console": 2,
+        "no-console": [2, { allow: ["warn", "error"] }],
 
         // Test
         "jest/no-disabled-tests": 2,
