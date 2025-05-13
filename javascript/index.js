@@ -17,7 +17,7 @@ module.exports = {
         // GoodData
         "header/header": [2, "line", {
             pattern: "^ \\(C\\) \\d{4}(-\\d{4})? GoodData Corporation$",
-            template: " (C) 2022 GoodData Corporation"
+            template: ` (C) ${new Date().getFullYear()} GoodData Corporation`
         }],
         "@typescript-eslint/explicit-function-return-type": 0,
         "@typescript-eslint/no-use-before-define": 0,
