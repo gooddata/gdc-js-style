@@ -6,7 +6,7 @@ typescript/README.md
 {
   "schema_version": "authorship/3.0.0",
   "git_ai_version": "1.7.5",
-  "base_commit_sha": "5c9066459311cdcb95e9d28477e7715cc4d8442e",
+  "base_commit_sha": "8d3bb8997ed9ea841bf139e72512d3456a7b8033",
   "prompts": {},
   "sessions": {
     "s_b042fdbbcf51d3": {
