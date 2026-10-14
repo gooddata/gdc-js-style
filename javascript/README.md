@@ -44,6 +44,4 @@ yarn install --frozen-lockfile
 
 ## Release
 
-Package publishing is done via Jenkins Job:
-
-https://checklist.intgdc.com/job/client-libs/job/gdc-js-style-javascript-release/
+Note that this package is now published from a different repository (see `gdc-ui`).
