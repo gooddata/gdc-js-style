@@ -28,6 +28,5 @@ yarn install --frozen-lockfile
 
 ## Release
 
-Package publishing is done via Jenkins Job:
-
-https://checklist.intgdc.com/job/client-libs/job/gdc-js-style-typescript-release/
+The release needs to be done via [npm trusted publishing](https://docs.npmjs.com/trusted-publishers). Set it up if needed.
+See `mock-js` for the reference implementation and consult the frontend shared credentials guideline.
